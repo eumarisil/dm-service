@@ -1,0 +1,23 @@
+{
+  "name": "dm-service",
+  "version": "1.0.0",
+  "description": "service",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --reporter mochawesome"
+  },
+  "keywords": [
+    "node"
+  ],
+  "author": "mariana silva",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "chai": "^4.3.4",
+    "chai-http": "^4.3.0",
+    "mocha": "^9.1.3",
+    "mochawesome": "^7.0.1"
+  }
+}
